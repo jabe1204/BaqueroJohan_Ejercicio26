@@ -10,7 +10,7 @@ int main()
 	std::cout<<"\n"<<std::endl;
 	float *direccion = new float[x];
 	factorial(x,direccion);
-	
+	std::cout<<"\n"<<std::endl;
 	return 0;
 }
 
