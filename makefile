@@ -1,8 +1,8 @@
-multiplicado.dat : clase26.x
-	./clase26.x
+factorial.dat : factorial.x
+	./factorial.x
 
-clase26.x : clase26.cpp
-	c++ clase26.cpp -o clase26.x
+factorial.x : factorial.cpp
+	c++ factorial.cpp -o factorial.x
 	
 clean :
-	rm clase26.x multiplicado.dat
+	rm factorial.x
